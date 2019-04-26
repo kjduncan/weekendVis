@@ -16,6 +16,7 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serialize(),
     success: function(x) {
+      alert('thank you for your submission!');
       //add submitted text to button
       // $('.form').appendChild('<div>success</div>');
 

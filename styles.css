@@ -19,6 +19,7 @@ select {
   font-family: apercu;
   -moz-appearance: none;
   margin-bottom: 24px;
+  line-height: 24px;
 }
 select.being {
   width: 200px;
