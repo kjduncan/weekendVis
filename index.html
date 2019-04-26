@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Weekend Visualization</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+  <body>
+    <div class="wrap">
+      <form id="test-form">
+        <div class="classify">
+          <p class="description">Take a moment to reflect on what you want your weekend to look like.</p>
+          Email:<input name="email" type="text">
+
+        </div>
+        <div class="content">
+          <p class="intro">This weekend, I want to be</p>
+            <div class="group">
+              <select name="place" class="custom-select place">
+                <option value="city">in the city</option>
+                <option value="home">at home</option>
+                <option value="nature">outside</option>
+              </select>
+              <select name="people" class="custom-select people">
+                <option value="alone">by myself</option>
+                <option value="family">with my family</option>
+                <option value="partner">with my partner</option>
+                <option value="friends">with my  friends</option>
+              </select>
+            </div>
+            <select name="being" class="custom-select being">
+              <option value="peaceful">feeling peaceful</option>
+              <option value="party">at a party</option>
+              <option value="active">being active</option>
+              <option value="relax">feeling relaxed</option>
+            </select>
+          </div>
+          <button type="submit" id="submit-form">save intention</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+
+</html>
