@@ -10,12 +10,12 @@ p.intro {
 }
 select {
   background-color: #FFDBA0;
-  font-size: 20px;
+  font-size: 16px;
   color: #7A7482;
-  padding: 16px;
+  padding: 14px;
   border: none;
   height: 40px;
-  width: 120px;
+  width: 136px;
   font-family: apercu;
   -moz-appearance: none;
   margin-bottom: 24px;
