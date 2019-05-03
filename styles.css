@@ -8,6 +8,12 @@ p.intro {
   font-size: 18px;
   font-family: apercu;
 }
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
 select {
   background-color: #FFDBA0;
   font-size: 14px;
@@ -47,7 +53,7 @@ select.place {
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
-  margin-top: 160px;
+  margin-top: 216px;
 }
 p.description {
   width: 75%;
@@ -67,6 +73,9 @@ p.description {
 input {
   padding: 16px;
   width: 75%;
+}
+input.full {
+  width: 100%;
 }
 button {
   border-radius: 24px;
