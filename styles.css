@@ -12,7 +12,7 @@ p.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 select {
   background-color: #FFDBA0;
@@ -39,7 +39,7 @@ select.place {
   justify-content: center;
   align-items: center;
   background-color: #fdf5eb;
-  height: 700px;
+  height: 800px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -52,8 +52,8 @@ select.place {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
-  margin-top: 216px;
+  margin-bottom: 40px;
+  margin-top: 160px;
 }
 p.description {
   width: 75%;
@@ -76,6 +76,7 @@ input {
 }
 input.full {
   width: 100%;
+  margin-bottom: 16px;
 }
 button {
   border-radius: 24px;
