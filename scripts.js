@@ -17,6 +17,9 @@ $('#submit-form').on('click', function(e) {
     data: $form.serialize(),
     success: function(x) {
       alert('thank you for your submission!');
+      const form = document.getElementById('test-form');
+      form && form.reset();
+      console.log($form);
       //add submitted text to button
       // $('.form').appendChild('<div>success</div>');
 

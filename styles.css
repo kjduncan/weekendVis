@@ -47,6 +47,7 @@ select.place {
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
+  margin-top: 160px;
 }
 p.description {
   width: 75%;
@@ -60,6 +61,7 @@ p.description {
   top: 48px;
   left: 0;
   padding-bottom: 24px;
+  margin-bottom: 40px;
   font-family: apercu;
 }
 input {
